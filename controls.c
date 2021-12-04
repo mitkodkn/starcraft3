@@ -1,3 +1,13 @@
+//--------------------------------------------
+// NAME: Dimitar Nikolov
+// CLASS: XIa
+// NUMBER: 7
+// PROBLEM: #3
+// FILE NAME: controls.c
+// FILE PURPOSE:
+//	Definitions of the functions called by the controller
+//---------------------------------------------
+
 #include <pthread.h>
 #include <stdio.h>
 #include <stdlib.h>
