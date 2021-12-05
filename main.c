@@ -21,7 +21,7 @@
 #include "utility.h"
 
 //--------------------------------------------
-// FUNCTION: execute_command
+// FUNCTION: main
 //	Combines the logic of all custom libraries
 //	to create the game
 //----------------------------------------------
@@ -92,7 +92,7 @@ int main(int argc, char const *argv[]) {
 	// Checking for error
 	if (error != 0) {
 		// Printing the error with appropriate beginning
-		perror("pthread_create");
+		printf("pthread_create error code %d\n", error);
 		// If an error has occurred, ending the program
 		return 1;
 	}
@@ -121,7 +121,7 @@ int main(int argc, char const *argv[]) {
 		// Checking for error
 		if (error != 0) {
 			// Printing the error with appropriate beginning
-			perror("pthread_create");
+			printf("pthread_create error code %d\n", error);
 			// If an error has occurred, ending the program
 			return 1;
 		}
@@ -133,7 +133,7 @@ int main(int argc, char const *argv[]) {
 	// Checking for error
 	if (error != 0) {
 		// Printing the error with appropriate beginning
-		perror("pthread_join");
+		printf("pthread_join error code %d\n", error);
 		// If an error has occurred, ending the program
 		return 1;
 	}
@@ -146,7 +146,7 @@ int main(int argc, char const *argv[]) {
 		// Checking for error
 		if (error != 0) {
 			// Printing the error with appropriate beginning
-			perror("pthread_join");
+			printf("pthread_join error code %d\n", error);
 			// If an error has occurred, ending the program
 			return 1;
 		}
@@ -163,7 +163,7 @@ int main(int argc, char const *argv[]) {
 		// Checking for error
 		if (error != 0) {
 			// Printing the error with appropriate beginning
-			perror("pthread_mutex_destroy");
+			printf("pthread_mutex_destroy error code %d\n", error);
 			// If an error has occurred, ending the program
 			return 1;
 		}
@@ -175,7 +175,7 @@ int main(int argc, char const *argv[]) {
 	// Checking for error
 	if (error != 0) {
 		// Printing the error with appropriate beginning
-		perror("pthread_mutex_destroy");
+		printf("pthread_mutex_destroy error code %d\n", error);
 		// If an error has occurred, ending the program
 		return 1;
 	}
