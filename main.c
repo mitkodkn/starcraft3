@@ -24,6 +24,9 @@
 // FUNCTION: main
 //	Combines the logic of all custom libraries
 //	to create the game
+// PARAMETERS:
+//	argc - Number of program arguments
+//	argv - Array of program arguments as strings
 //----------------------------------------------
 int main(int argc, char const *argv[]) {
 
