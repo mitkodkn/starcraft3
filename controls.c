@@ -1,8 +1,7 @@
 //--------------------------------------------
 // NAME: Dimitar Nikolov
-// CLASS: XIa
-// NUMBER: 7
-// PROBLEM: #3
+// GROUP: 32
+// FAC. NUMBER: 121218081
 // FILE NAME: controls.c
 // FILE PURPOSE:
 //	Definitions of the functions called by the controller

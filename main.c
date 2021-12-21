@@ -1,8 +1,7 @@
 //--------------------------------------------
 // NAME: Dimitar Nikolov
-// CLASS: XIa
-// NUMBER: 7
-// PROBLEM: #3
+// GROUP: 32
+// FAC. NUMBER: 121218081
 // FILE NAME: main.c
 // FILE PURPOSE:
 //	Combines the functionality of the game
